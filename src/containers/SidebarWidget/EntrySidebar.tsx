@@ -117,9 +117,17 @@ const EntrySidebarExtension = () => {
           </div>
         )}
         {confirmation && (
-          <h2 style={{ color: "green", marginTop: "10px" }}>
-            New Listing entry and identified Audience will be available shortly!
-          </h2>
+          <div>
+            <h3 style={{ marginTop: "10px" }}>New Property Entry and Audience will be available shortly...</h3>
+            <div>
+              <a
+                href="https://app.contentstack.com/#!/automations/projects/a156f1e1d336489abd6ac81dafa890e9/executions"
+                target="_blank"
+                rel="noopener noreferrer">
+                View Progress
+              </a>
+            </div>
+          </div>
         )}
       </div>
     </div>
