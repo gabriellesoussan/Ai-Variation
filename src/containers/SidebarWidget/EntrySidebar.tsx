@@ -116,7 +116,11 @@ const EntrySidebarExtension = () => {
             <br />
           </div>
         )}
-        {confirmation && <h2 style={{ color: "green", marginTop: "10px" }}>Variation generated successfully!</h2>}
+        {confirmation && (
+          <h2 style={{ color: "green", marginTop: "10px" }}>
+            New Listing entry and identified Audience will be available shortly!
+          </h2>
+        )}
       </div>
     </div>
   );
